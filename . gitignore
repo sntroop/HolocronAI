@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+
+# Environment & Secrets
+.env
+*.pem
+*.key
+
+# Local Databases & Cache
+*.sqlite3
+data/
+db_backups/
+redis_data/
+
+# Project Specific (Holocron)
+bots/                
+extracted_repos/     
+logs/                
+*.pptx               
+
+# IDEs
+.vscode/
+.idea/
